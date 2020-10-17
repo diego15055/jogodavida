@@ -1,44 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Passos para execuçao;
+Utilizar o Visual Studio Code;
 
-## Available Scripts
+1.0: Abra o terminal integrado do VSCODE e digite ' yarn ' para instalaçao das dependencias;
 
-In the project directory, you can run:
+2.0: Ainda no terminal, digite  ' yarn start ' para executar o projeto com o React em modo de desenvolvimento;
 
-### `yarn start`
+2.1: Para criar uma Build do projeto, basta digitar ' yarn build ' no terminal integrado;
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2.2: Ao criar uma Build, no terminal integrado tera as instruçoes para acesso ao projeto no modo de produçao;
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+No modo de desenvolvimento o conteudo pode ser acessado através do link: [http://localhost:3000](http://localhost:3000);'
 
-### `yarn test`
+Links consultados;
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Autômatos Celulares e Jogo da Vida: https://www.youtube.com/watch?v=yLiwUjnRJBE&ab_channel=Andr%C3%A9Santanch%C3%A8
 
-### `yarn build`
+Reducers imutáveis com Immer: https://www.youtube.com/watch?v=zodo8m7mc9w&ab_channel=MatheusCastiglioni
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Documentaçao Immer: https://immerjs.github.io/immer/docs/introduction
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Jogo da Vida:	https://pt.wikipedia.org/wiki/Jogo_da_vida
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Stackoverflow: https://stackoverflow.com/questions/34711791/conways-game-of-life
 
-### `yarn eject`
+Stackoverflow/Google: https://www.google.com/search?q=game+of+life+stack+overflow+site:stackoverflow.com&sxsrf=ALeKk01n_m8uIVcXd5s65wrbiA_duychPw:1602974291128&sa=X&ved=2ahUKEwjKjNPJ2LzsAhWXH7kGHT1KAUQQrQIoBHoECAcQBQ
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Stackoverflow: https://stackoverflow.com/questions/55139355/game-of-life-edges-do-not-change
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
